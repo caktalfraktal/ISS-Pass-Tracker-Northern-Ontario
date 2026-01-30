@@ -1,0 +1,11 @@
+pyinstaller --onefile --windowed --icon=icon.ico main.py
+
+
+To build an exe including all images (replace gif with whatever):
+
+pyinstaller --onefile --windowed --icon=magic-card.ico --add-data "*.gif;." main.py
+
+
+
+
+pyinstaller --onefile --windowed --icon=icon.ico main.py
