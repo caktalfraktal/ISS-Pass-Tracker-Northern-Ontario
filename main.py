@@ -13,8 +13,8 @@ class ISSPassPredictor:
         self.root.geometry("1200x700")
         
         # Sudbury coordinates
-        self.latitude = 46.49
-        self.longitude = -80.99
+        self.latitude = 46.5
+        self.longitude = -81
         self.location_name = "Sudbury, Ontario"
         self.max_distance_km = 1000
         self.timezone = pytz.timezone('America/Toronto')  # Eastern Time
